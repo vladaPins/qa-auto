@@ -14,4 +14,9 @@ public class SampleTest extends TestBase {
         boolean isLoginButtonVisible = page.isVisible("[data-test='login-button']");
         assertTrue(isLoginButtonVisible, "Login Button");
     }
+
+    @Test
+    public void myFirstTest() {
+        System.out.println("HELLO TEST");
+    }
 }
