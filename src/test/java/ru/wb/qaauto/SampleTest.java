@@ -15,8 +15,4 @@ public class SampleTest extends TestBase {
         assertTrue(isLoginButtonVisible, "Login Button");
     }
 
-    @Test
-    public void myFirstTest() {
-        System.out.println("HELLO TEST");
-    }
 }
